@@ -1,0 +1,5 @@
+Move cursor left, down, up, or right respectively: h j k l
+Insert at line below: o
+Make a full line uppercase or lowercase: gUU/guu
+Match brackets: %
+Jump to last modification line: '. 
