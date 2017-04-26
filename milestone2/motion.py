@@ -11,16 +11,18 @@
 
 from graphics import *
 
+gravity = 9.8  #meters per second per second
+
 def main():
     win = GraphWin()
     coefficient = get_materials()
     speed = get_initial_speed()
-    begin_motion(coefficient, speed)
+    begin_motion(coefficient, speed, mass)
     display_message()
 
 
-def begin_motion(coefficient, speed):
-    
+def begin_motion(coefficient, speed, mass):
+    frictional_acceleration = coefficient * gravity    
 
 
 main()

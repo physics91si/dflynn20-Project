@@ -1,0 +1,13 @@
+This program is a simulation of a block/ball moving along a surface of a chosen material.
+It will show the effects of choosing materials with different coefficients of friction.
+The idea is that the user will enter a choice of material for the surface of the bottom
+of the window and a speed for the block/ball. Based on the choice of surface and the
+resulting coefficient of friction, the block/ball will move until eventually it will stop
+as the frictional force will have slowed all of the momentum of the block/ball.
+
+Using the mass and the initial velocity, the program will begin an animation of the object
+moving back and forth along the window. As it is moving, and decelerating, there will be 
+a plot being created of the position, velocity and acceleration. This will be affected by
+the object colliding with the walls on either side as it moves back and forth.
+
+
